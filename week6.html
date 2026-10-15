@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>document</title>
+    <link rel="stylesheet" href="week6.css">
+</head>
+
+<body>
+    <div class="home">
+        <img src="logo.png" alt="company logo">
+
+        <div id="mid-content">
+            <div>About</div>
+            <div>Services</div>
+            <div>Contact</div>
+        </div>
+
+        <button class="hamburger" aria-label="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+            </svg></button>
+    </div>
+
+    <main class="container">
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain at sunrise">
+            <div class="card-body">
+                <span class="countdown">4 Days To Go</span>
+                <h3 class="card-title">Post One</h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minus placeat architecto, delectus
+                    quia commodi suscipit ipsam sapiente dolor, reiciendis modi magnam ex quos ea! Autem voluptate
+                    temporibus ratione culpa.
+                </p>
+                <button class="btn">View More</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain at sunrise">
+            <div class="card-body">
+                <span class="countdown">4 Days To Go</span>
+                <h3 class="card-title">Post One</h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minus placeat architecto, delectus
+                    quia commodi suscipit ipsam sapiente dolor, reiciendis modi magnam ex quos ea! Autem voluptate
+                    temporibus ratione culpa.
+                </p>
+                <button class="btn">View More</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain at sunrise">
+            <div class="card-body">
+                <span class="countdown">4 Days To Go</span>
+                <h3 class="card-title">Post One</h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minus placeat architecto, delectus
+                    quia commodi suscipit ipsam sapiente dolor, reiciendis modi magnam ex quos ea! Autem voluptate
+                    temporibus ratione culpa.
+                </p>
+                <button class="btn">View More</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain at sunrise">
+            <div class="card-body">
+                <span class="countdown">4 Days To Go</span>
+                <h3 class="card-title">Post One</h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minus placeat architecto, delectus
+                    quia commodi suscipit ipsam sapiente dolor, reiciendis modi magnam ex quos ea! Autem voluptate
+                    temporibus ratione culpa.
+                </p>
+                <button class="btn">View More</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain at sunrise">
+            <div class="card-body">
+                <span class="countdown">4 Days To Go</span>
+                <h3 class="card-title">Post One</h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minus placeat architecto, delectus
+                    quia commodi suscipit ipsam sapiente dolor, reiciendis modi magnam ex quos ea! Autem voluptate
+                    temporibus ratione culpa.
+                </p>
+                <button class="btn">View More</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain at sunrise">
+            <div class="card-body">
+                <span class="countdown">4 Days To Go</span>
+                <h3 class="card-title">Post One</h3>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, minus placeat architecto, delectus
+                    quia commodi suscipit ipsam sapiente dolor, reiciendis modi magnam ex quos ea! Autem voluptate
+                    temporibus ratione culpa.
+                </p>
+                <button class="btn">View More</button>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        const btn = document.querySelector('.hamburger');
+        const menu = document.getElementById('mid-content');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('open');
+        });
+    </script>
+</body>
+
+</html>
